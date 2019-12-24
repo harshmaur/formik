@@ -100,7 +100,7 @@ export interface FormikActions<Values> {
   /** Validate field value */
   validateField(field: string): void;
   /** Reset form */
-  resetForm(nextValues?: Values): void;
+  resetForm(nextValues?: any): void;
   /** Submit the form imperatively */
   submitForm(): void;
   /** Set Formik state, careful! */
